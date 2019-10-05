@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
-
 func main() {
-	serverUrl := os.GetEnv('MATT
+	serverURL := os.Getenv("MATTERMOST_SERVER")
+	fmt.Print(serverURL)
+}
